@@ -3,7 +3,7 @@ import "./Expenses.css";
 import Card from "./Card";
 
 function Expenses(props) {
-    const handleDeleteExpense = (id) => {}
+   
   return (
     <Card className="expenses">
         
@@ -13,7 +13,7 @@ function Expenses(props) {
           title={expense.title}
           date={expense.date}
           price={expense.price}
-          onDelete={handleDeleteExpense}
+          
         />
       ))}
     </Card>

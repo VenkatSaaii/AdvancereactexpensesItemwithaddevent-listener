@@ -5,7 +5,7 @@ import "./ExpenseItem.css";
 function ExpenseItem(props) {
     const handleDelete = () => {
        
-        props.onDelete(props.id); // Assuming onDelete is a function passed as prop to delete the expense
+        console.log("clicked") // Assuming onDelete is a function passed as prop to delete the expense
       };
   return (
     <Card className="expense-item">
